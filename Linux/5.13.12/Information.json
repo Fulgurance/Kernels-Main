@@ -9,6 +9,32 @@
   "md5sums": ["6e1728b2021ca19cc9273f080e6c44c7"],
   "patchesLinks": [],
   "installedFiles": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    },
+    {
+      "name": "Bc",
+      "version": "5.0.0",
+      "options": []
+    },
+    {
+      "name": "Kmod",
+      "version": "29.0.0",
+      "options": []
+    },
+    {
+      "name": "Libelf",
+      "version": "0.185.0",
+      "options": []
+    },
+    {
+      "name": "Openssl",
+      "version": "1.1.1+l",
+      "options": []
+    }
+  ],
   "options": []
 }

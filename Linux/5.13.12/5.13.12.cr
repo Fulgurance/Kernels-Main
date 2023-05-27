@@ -5,7 +5,7 @@ class Target < ISM::Software
         makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/src/")
         makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/doc/")
         copyDirectory("#{mainWorkDirectoryPath(false)}Documentation","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/doc/linux-5.13.12")
-        moveFile("#{workDirectoryPath(false)}/linux-5.13.12","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/src/linux-5.13.12")
+        moveFile("#{workDirectoryPath(false)}/Linux-5.13.12","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/src/linux-5.13.12")
     end
 
 end

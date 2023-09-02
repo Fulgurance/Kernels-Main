@@ -1,0 +1,40 @@
+{
+  "port": "Kernels-Main",
+  "name": "Linux",
+  "version": "6.5.1",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "The Linux kernel",
+  "website": "https://www.kernel.org/",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    },
+    {
+      "name": "Bc",
+      "version": ">=5.0.0",
+      "options": []
+    },
+    {
+      "name": "Kmod",
+      "version": ">=29.0.0",
+      "options": []
+    },
+    {
+      "name": "Libelf",
+      "version": ">=0.185.0",
+      "options": []
+    },
+    {
+      "name": "Openssl",
+      "version": ">=1.1.1+l",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": []
+}

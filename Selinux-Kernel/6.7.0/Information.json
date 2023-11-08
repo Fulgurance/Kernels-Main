@@ -1,0 +1,41 @@
+{
+  "port": "Kernels-Main",
+  "name": "Selinux-Kernel",
+  "version": "6.7.0",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "SELinux Kernel Subsystem",
+  "website": "https://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux.git",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    },
+    {
+      "name": "Bc",
+      "version": ">=5.0.0",
+      "options": []
+    },
+    {
+      "name": "Kmod",
+      "version": ">=29.0.0",
+      "options": []
+    },
+    {
+      "name": "Libelf",
+      "version": ">=0.185.0",
+      "options": []
+    },
+    {
+      "name": "Openssl",
+      "version": ">=1.1.1+l",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

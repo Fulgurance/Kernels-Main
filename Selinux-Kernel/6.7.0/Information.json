@@ -36,20 +36,6 @@
     }
   ],
   "kernelDependencies": [],
-  "options": [
-    {
-      "name": "Pass1",
-      "description": "Enable the phase 1 building of the system base",
-      "active": false,
-      "dependencies": [
-        {
-          "name": "Gcc",
-          "version": ">=0.0.0",
-          "options": ["Pass1"]
-        }
-      ],
-      "kernelDependencies": []
-    }
-  ],
+  "options": [],
   "uniqueOptions": []
 }

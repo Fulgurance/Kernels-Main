@@ -32,4 +32,10 @@ class Target < ISM::Software
         end
     end
 
+    def install
+        super
+
+        updateKernelOptionsDatabase
+    end
+
 end

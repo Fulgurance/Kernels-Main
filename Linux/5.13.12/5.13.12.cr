@@ -35,7 +35,9 @@ class Target < ISM::Software
     def install
         super
 
-        updateKernelOptionsDatabase
+        if !option("Pass1")
+            updateKernelOptionsDatabase
+        end
     end
 
 end

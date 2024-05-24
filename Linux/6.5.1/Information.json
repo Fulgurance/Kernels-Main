@@ -2,34 +2,37 @@
   "port": "Kernels-Main",
   "name": "Linux",
   "version": "6.5.1",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "The Linux kernel",
   "website": "https://www.kernel.org/",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
       "version": ">=0.2.0",
       "options": []
     },
     {
+      "port": "Utilities-Main",
       "name": "Bc",
       "version": ">=5.0.0",
       "options": []
     },
     {
+      "port": "Utilities-Main",
       "name": "Kmod",
       "version": ">=29.0.0",
       "options": []
     },
     {
+      "port": "BaseLibraries-Main",
       "name": "Libelf",
       "version": ">=0.185.0",
       "options": []
     },
     {
+      "port": "Security-Main",
       "name": "Openssl",
       "version": ">=1.1.1+l",
       "options": []
@@ -43,6 +46,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "ProgrammingTools-Main",
           "name": "Gcc",
           "version": ">=0.0.0",
           "options": ["Pass1"]

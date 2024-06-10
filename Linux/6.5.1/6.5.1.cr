@@ -25,10 +25,10 @@ class Target < ISM::Software
             makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr")
             copyDirectory("#{mainWorkDirectoryPath}usr/include", "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr")
         else
-            makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/src/")
-            makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/doc/")
-            copyDirectory("#{mainWorkDirectoryPath(false)}Documentation","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/doc/linux-6.5.1")
-            moveFile("#{workDirectoryPath(false)}/Sources","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/src/linux-6.5.1")
+            makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/src/")
+            makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/")
+            copyDirectory("#{mainWorkDirectoryPath}Documentation","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/doc/linux-6.5.1")
+            moveFile("#{workDirectoryPath}/Sources","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/src/linux-6.5.1")
         end
     end
 

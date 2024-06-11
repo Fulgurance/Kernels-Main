@@ -6,7 +6,14 @@
   "description": "The Linux kernel",
   "website": "https://www.kernel.org/",
   "installedFiles": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Gcc",
+      "version": ">=0.0.0",
+      "options": ["Pass1"]
+    }
+  ],
   "kernelDependencies": [],
   "options": [],
   "uniqueDependencies": [],

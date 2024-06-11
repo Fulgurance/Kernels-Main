@@ -1,6 +1,6 @@
 {
   "port": "Kernels-Main",
-  "name": "Linux",
+  "name": "Linux-Kernel-Sources",
   "version": "6.5.1",
   "architectures": ["x86_64"],
   "description": "The Linux kernel",

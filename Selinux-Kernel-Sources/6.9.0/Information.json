@@ -1,0 +1,16 @@
+{
+  "port": "Kernels-Main",
+  "name": "Selinux-Kernel",
+  "version": "6.9.0",
+  "architectures": ["x86_64"],
+  "description": "SELinux Kernel Subsystem",
+  "website": "https://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux.git",
+  "installedFiles": [],
+  "dependencies": [],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

@@ -1,6 +1,6 @@
 {
   "port": "Kernels-Main",
-  "name": "Selinux-Kernel",
+  "name": "Selinux-Kernel-Sources",
   "version": "6.9.0",
   "architectures": ["x86_64"],
   "description": "SELinux Kernel Subsystem",

@@ -1,2 +1,2 @@
-class Target < ISM::KernelSoftware
+class Target < ISM::KernelSourcesSoftware
 end

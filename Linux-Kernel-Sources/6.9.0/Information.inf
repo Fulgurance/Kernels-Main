@@ -1,0 +1,19 @@
+PORT
+    Kernels-Main
+NAME
+    Linux-Kernel-Sources
+VERSION
+    6.9.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    The Linux kernel
+WEBSITE
+    https://www.kernel.org/
+DEPENDENCIES
+        @ProgrammingTools-Main:Gcc>=0.0.0(Pass1)
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

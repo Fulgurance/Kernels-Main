@@ -1,0 +1,19 @@
+PORT
+    Kernels-Main
+NAME
+    Selinux-Kernel-Sources
+VERSION
+    6.11.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    SELinux Kernel Subsystem
+WEBSITE
+    https://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux.git
+DEPENDENCIES
+        @ProgrammingTools-Main:Gcc>=0.0.0(Pass1)
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
